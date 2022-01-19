@@ -2,10 +2,10 @@ cmake_minimum_required(VERSION 3.5.1)
 project(darknet_ros)
 
 # Cuda
-set(CUDA_TOOLKIT_ROOT_DIR /usr/local/cuda-11.1)
-set(CUDACXX /usr/local/cuda-11.1/bin/nvcc)
-set(CUDA_INCLUDE_DIRS /usr/local/cuda-11-1/include)
-set(CUDA_CUDART_LIBRARY /usr/local/cuda-11.1/lib64/libcudart.so)
+set(CUDA_TOOLKIT_ROOT_DIR /usr/local/cuda-11.2)
+set(CUDACXX /usr/local/cuda-11.2/bin/nvcc)
+set(CUDA_INCLUDE_DIRS /usr/local/cuda-11-2/include)
+set(CUDA_CUDART_LIBRARY /usr/local/cuda-11.2/lib64/libcudart.so)
 
 # Set c++11 cmake flags
 set(CMAKE_CXX_STANDARD 11)
